@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_topbar">#fcfcfc</color>
+    <color name="bg_white">#fff</color>
+    <color name="text_topbar">#694e42</color>
+    <color name="div_white">#e5e5e5</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="text_yellow">#ffc800</color>
+    <color name="text_gray">#8d7a7e</color>
+</resources>

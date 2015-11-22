@@ -1,0 +1,70 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">   
+	<LinearLayout
+	    android:id="@+id/layout_1"
+	    android:layout_width="match_parent"
+	    android:layout_height="60sp"
+	    android:orientation="horizontal"
+	    tools:context="com.example.uidemo.MainActivity">       
+	    <TextView
+	        android:id = "@+id/label_user"
+	        android:layout_width = "0dp"
+	        android:layout_height = "60sp"
+	        android:layout_weight="1"
+	        android:gravity="center|end"
+	        android:text = "@string/label_user" />
+	    <EditText
+	        android:id="@+id/txt_user"
+	        android:layout_width="0sp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="2"
+	        android:maxLines="1"
+	        android:inputType="text"
+	        android:hint="@string/user_hint" />       
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="60sp"
+	    android:orientation="horizontal">  
+	    <TextView
+	        android:id="@+id/label_pwd"
+	        android:layout_width="0dp"
+	        android:layout_height="60sp"
+	        android:layout_weight="1"
+	        android:gravity="center|end"
+	        android:text="@string/label_pwd" />
+	    <EditText
+	        android:id="@+id/txt_pwd"
+	        android:layout_width="0sp"
+	        android:layout_height="wrap_content"
+	        android:maxLines="1"
+	        android:layout_weight="2"
+	        android:inputType="textPassword"
+	 	 	android:hint="@string/pwd_hint" />   
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	    <Button
+	    	android:id="@+id/btn_login"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="64dp"
+	    	android:textSize="22sp"
+	    	android:background="@color/yellow"
+	    	android:text="@string/btn_login" />
+	    <ImageView
+	        android:id="@+id/img_v"
+	        android:layout_width="match_parent"
+	        android:layout_height="100sp"
+	        android:background="@color/red"
+	        android:contentDescription="@string/app_name"
+	        android:src="@drawable/ic_launcher" />
+	</LinearLayout>
+</LinearLayout>
+
+
