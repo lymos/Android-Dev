@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_name" />
+   	<EditText 
+   	    android:id="@+id/file_name"
+       	android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:inputType="text" />
+   	<TextView 
+       	android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:text="@string/label_cont"/>
+   	<EditText
+   	    android:id="@+id/file_content"
+       	android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:inputType="text" />
+
+	<LinearLayout
+   		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+    	<Button
+    	    android:id="@+id/btn_write"
+    	    android:layout_width="0sp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:text="@string/btn_submit" />
+    	<Button 
+    	    android:id="@+id/btn_clean"
+    	    android:layout_width="0sp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:text="@string/btn_reset" /> 	
+	</LinearLayout>
+	<Button 
+	    android:id="@+id/btn_read"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/btn_read" />
+</LinearLayout>

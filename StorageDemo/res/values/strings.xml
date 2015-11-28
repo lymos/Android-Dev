@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StorageDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="label_name">请输入文件名：</string>
+	<string name="label_cont">请输入文件内容：</string>
+	<string name="btn_submit">写入</string>
+	<string name="btn_reset">清空</string>
+	<string name="btn_read">读取文件内容</string>
+</resources>
