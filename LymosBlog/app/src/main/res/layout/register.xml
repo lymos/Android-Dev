@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical">
+
+    <EditText
+        android:id = "@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "@string/LABEL_EMAIL"
+        android:textColorHint = "#95a1aa"/>
+    <EditText
+        android:id = "@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "@string/LABEL_PASSWORD"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id = "@+id/re_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "@string/LABEL_SURE_PASSWORD"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+
+        <EditText
+            android:id = "@+id/captcha"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:layout_weight = "1"
+            android:hint = "@string/LABEL_CAPTCHA"
+            />
+        <ImageButton
+            android:id = "@+id/btn_refresh_captcha"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight = "2"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id = "@+id/btn_create_account"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "12dp"
+        android:background="@color/primary"
+        android:text = "@string/BTN_CREATE_ACCOUNT"
+        />
+</LinearLayout>
